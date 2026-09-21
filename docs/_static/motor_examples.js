@@ -12,7 +12,7 @@
     xl320: "XL-320",
     xl330: "XL-330",
     feetech_sts3215_7_4V: "STS3215 (7.4V)",
-    feetech_hls: "HLS2915",
+    feetech_hls2915: "HLS2915",
     waveshare_st3025: "ST3025",
   };
   var DEFAULT_MOTOR = "xl330";

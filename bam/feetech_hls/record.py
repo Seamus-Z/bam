@@ -25,7 +25,7 @@ def main():
     parser.add_argument("--id", type=int, default=1, help="Servo ID")
     parser.add_argument("--logdir", required=True, help="Raw-log output directory")
     parser.add_argument("--trajectory", default="lift_and_drop", help="Trajectory name")
-    parser.add_argument("--motor", default="feetech_hls", help="Motor identifier")
+    parser.add_argument("--motor", default="feetech_hls2915", help="Motor identifier")
     parser.add_argument(
         "--kp",
         type=int,

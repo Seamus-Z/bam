@@ -27,7 +27,7 @@ parser.add_argument(
 parser.add_argument("--goal-min", type=float, default=-1.20, help="Lower target clamp [rad]")
 parser.add_argument("--goal-max", type=float, default=1.20, help="Upper target clamp [rad]")
 parser.add_argument("--cooldown-temp", type=float, default=42.0, help="Maximum start temperature [C]")
-parser.add_argument("--motor", default="feetech_hls", help="Motor identifier")
+parser.add_argument("--motor", default="feetech_hls2915", help="Motor identifier")
 args = parser.parse_args()
 
 kps = [int(value) for value in args.kps.split(",") if value.strip()]
